@@ -7,7 +7,7 @@
 	 1. 直接改变position属性
 	
 
-	``` stylus
+	``` 
 	this.transform.position += Vector3.left * Time.deltaTime * 100;
 	```
 
@@ -16,14 +16,15 @@
 	 2. 使用Vector3.MoveTowards
 	 
 
-	``` stylus
+	```
 	this.transform.position = Vector3.MoveTowards (this.transform.position, target, Time.deltaTime);
 	```
 	3. 使用transform.Translate
 	
 
-	``` stylus
+	``` 
 	this.transform.Translate (100 * Time.fixedDeltaTime);
+	```
 
 
 # 牧师恶魔过河
